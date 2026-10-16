@@ -1,0 +1,5 @@
+**/node_modules
+app
+.git
+**/*.sqlite*
+server/seed/tools/__pycache__

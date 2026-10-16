@@ -1,0 +1,12 @@
+{
+  "name": "@seoul-ev/e2e",
+  "private": true,
+  "type": "module",
+  "description": "Headless-Chrome acceptance run against Expo web + the mock backend (DEBUG_ENDPOINTS=true).",
+  "scripts": {
+    "e2e": "node e2e.mjs && node districts.mjs && node drag-pin.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}

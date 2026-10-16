@@ -1,0 +1,19 @@
+services:
+  server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    ports:
+      - "${PORT:-3000}:3000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      PORT: "3000"
+      HOST: "0.0.0.0"
+      # Demo-friendly default; set DEBUG_ENDPOINTS=false in .env to disable /debug/*.
+      DEBUG_ENDPOINTS: "${DEBUG_ENDPOINTS:-true}"
+      # Passed through from the host only when set (e.g. Cloud Agent secrets); .env works too.
+      KAKAO_REST_API:
+      KAKAO_JS:
+    restart: unless-stopped

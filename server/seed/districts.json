@@ -1,0 +1,380 @@
+{
+ "version": 1,
+ "districts": [
+  {
+   "code": "11110",
+   "name_ko": "종로구",
+   "name_en": "Jongno-gu",
+   "center": {
+    "lat": 37.58069,
+    "lng": 126.9828
+   },
+   "bbox": {
+    "south": 37.5658,
+    "west": 126.9489,
+    "north": 37.63235,
+    "east": 127.02342
+   }
+  },
+  {
+   "code": "11140",
+   "name_ko": "중구",
+   "name_en": "Jung-gu",
+   "center": {
+    "lat": 37.56366,
+    "lng": 126.99751
+   },
+   "bbox": {
+    "south": 37.54386,
+    "west": 126.96154,
+    "north": 37.57192,
+    "east": 127.02676
+   }
+  },
+  {
+   "code": "11170",
+   "name_ko": "용산구",
+   "name_en": "Yongsan-gu",
+   "center": {
+    "lat": 37.5323,
+    "lng": 126.99
+   },
+   "bbox": {
+    "south": 37.50652,
+    "west": 126.94458,
+    "north": 37.55564,
+    "east": 127.01752
+   }
+  },
+  {
+   "code": "11200",
+   "name_ko": "성동구",
+   "name_en": "Seongdong-gu",
+   "center": {
+    "lat": 37.5635,
+    "lng": 127.0365
+   },
+   "bbox": {
+    "south": 37.53012,
+    "west": 127.0083,
+    "north": 37.57302,
+    "east": 127.07376
+   }
+  },
+  {
+   "code": "11215",
+   "name_ko": "광진구",
+   "name_en": "Gwangjin-gu",
+   "center": {
+    "lat": 37.53627,
+    "lng": 127.08795
+   },
+   "bbox": {
+    "south": 37.52277,
+    "west": 127.0572,
+    "north": 37.57343,
+    "east": 127.11517
+   }
+  },
+  {
+   "code": "11230",
+   "name_ko": "동대문구",
+   "name_en": "Dongdaemun-gu",
+   "center": {
+    "lat": 37.5742,
+    "lng": 127.03951
+   },
+   "bbox": {
+    "south": 37.56002,
+    "west": 127.02318,
+    "north": 37.60683,
+    "east": 127.07851
+   }
+  },
+  {
+   "code": "11260",
+   "name_ko": "중랑구",
+   "name_en": "Jungnang-gu",
+   "center": {
+    "lat": 37.6063,
+    "lng": 127.093
+   },
+   "bbox": {
+    "south": 37.56955,
+    "west": 127.06938,
+    "north": 37.62107,
+    "east": 127.11836
+   }
+  },
+  {
+   "code": "11290",
+   "name_ko": "성북구",
+   "name_en": "Seongbuk-gu",
+   "center": {
+    "lat": 37.59,
+    "lng": 127.0165
+   },
+   "bbox": {
+    "south": 37.57766,
+    "west": 126.97453,
+    "north": 37.63654,
+    "east": 127.07177
+   }
+  },
+  {
+   "code": "11305",
+   "name_ko": "강북구",
+   "name_en": "Gangbuk-gu",
+   "center": {
+    "lat": 37.6395,
+    "lng": 127.0255
+   },
+   "bbox": {
+    "south": 37.60912,
+    "west": 126.97971,
+    "north": 37.68542,
+    "east": 127.04999
+   }
+  },
+  {
+   "code": "11320",
+   "name_ko": "도봉구",
+   "name_en": "Dobong-gu",
+   "center": {
+    "lat": 37.6686,
+    "lng": 127.0466
+   },
+   "bbox": {
+    "south": 37.6312,
+    "west": 127.0081,
+    "north": 37.70148,
+    "east": 127.05591
+   }
+  },
+  {
+   "code": "11350",
+   "name_ko": "노원구",
+   "name_en": "Nowon-gu",
+   "center": {
+    "lat": 37.654,
+    "lng": 127.0567
+   },
+   "bbox": {
+    "south": 37.61431,
+    "west": 127.04172,
+    "north": 37.69622,
+    "east": 127.11239
+   }
+  },
+  {
+   "code": "11380",
+   "name_ko": "은평구",
+   "name_en": "Eunpyeong-gu",
+   "center": {
+    "lat": 37.6024,
+    "lng": 126.9293
+   },
+   "bbox": {
+    "south": 37.576,
+    "west": 126.88203,
+    "north": 37.65921,
+    "east": 126.96338
+   }
+  },
+  {
+   "code": "11410",
+   "name_ko": "서대문구",
+   "name_en": "Seodaemun-gu",
+   "center": {
+    "lat": 37.57907,
+    "lng": 126.93679
+   },
+   "bbox": {
+    "south": 37.5551,
+    "west": 126.90195,
+    "north": 37.61075,
+    "east": 126.96947
+   }
+  },
+  {
+   "code": "11440",
+   "name_ko": "마포구",
+   "name_en": "Mapo-gu",
+   "center": {
+    "lat": 37.56657,
+    "lng": 126.90153
+   },
+   "bbox": {
+    "south": 37.53377,
+    "west": 126.85363,
+    "north": 37.59083,
+    "east": 126.9639
+   }
+  },
+  {
+   "code": "11470",
+   "name_ko": "양천구",
+   "name_en": "Yangcheon-gu",
+   "center": {
+    "lat": 37.5171,
+    "lng": 126.8663
+   },
+   "bbox": {
+    "south": 37.50287,
+    "west": 126.82159,
+    "north": 37.55124,
+    "east": 126.89068
+   }
+  },
+  {
+   "code": "11500",
+   "name_ko": "강서구",
+   "name_en": "Gangseo-gu",
+   "center": {
+    "lat": 37.56142,
+    "lng": 126.82327
+   },
+   "bbox": {
+    "south": 37.52648,
+    "west": 126.76443,
+    "north": 37.60504,
+    "east": 126.88079
+   }
+  },
+  {
+   "code": "11530",
+   "name_ko": "구로구",
+   "name_en": "Guro-gu",
+   "center": {
+    "lat": 37.4952,
+    "lng": 126.8877
+   },
+   "bbox": {
+    "south": 37.47311,
+    "west": 126.81303,
+    "north": 37.51778,
+    "east": 126.90315
+   }
+  },
+  {
+   "code": "11545",
+   "name_ko": "금천구",
+   "name_en": "Geumcheon-gu",
+   "center": {
+    "lat": 37.4565,
+    "lng": 126.8954
+   },
+   "bbox": {
+    "south": 37.43367,
+    "west": 126.87184,
+    "north": 37.48629,
+    "east": 126.92909
+   }
+  },
+  {
+   "code": "11560",
+   "name_ko": "영등포구",
+   "name_en": "Yeongdeungpo-gu",
+   "center": {
+    "lat": 37.5262,
+    "lng": 126.8959
+   },
+   "bbox": {
+    "south": 37.48497,
+    "west": 126.87802,
+    "north": 37.55625,
+    "east": 126.94993
+   }
+  },
+  {
+   "code": "11590",
+   "name_ko": "동작구",
+   "name_en": "Dongjak-gu",
+   "center": {
+    "lat": 37.5121,
+    "lng": 126.9395
+   },
+   "bbox": {
+    "south": 37.47543,
+    "west": 126.90315,
+    "north": 37.51967,
+    "east": 126.98523
+   }
+  },
+  {
+   "code": "11620",
+   "name_ko": "관악구",
+   "name_en": "Gwanak-gu",
+   "center": {
+    "lat": 37.4782,
+    "lng": 126.9518
+   },
+   "bbox": {
+    "south": 37.43538,
+    "west": 126.89895,
+    "north": 37.49504,
+    "east": 126.98854
+   }
+  },
+  {
+   "code": "11650",
+   "name_ko": "서초구",
+   "name_en": "Seocho-gu",
+   "center": {
+    "lat": 37.4835,
+    "lng": 127.0322
+   },
+   "bbox": {
+    "south": 37.42854,
+    "west": 126.98055,
+    "north": 37.52588,
+    "east": 127.09645
+   }
+  },
+  {
+   "code": "11680",
+   "name_ko": "강남구",
+   "name_en": "Gangnam-gu",
+   "center": {
+    "lat": 37.5177,
+    "lng": 127.0473
+   },
+   "bbox": {
+    "south": 37.45648,
+    "west": 127.00838,
+    "north": 37.53998,
+    "east": 127.12281
+   }
+  },
+  {
+   "code": "11710",
+   "name_ko": "송파구",
+   "name_en": "Songpa-gu",
+   "center": {
+    "lat": 37.5145,
+    "lng": 127.1058
+   },
+   "bbox": {
+    "south": 37.46701,
+    "west": 127.06659,
+    "north": 37.54403,
+    "east": 127.16136
+   }
+  },
+  {
+   "code": "11740",
+   "name_ko": "강동구",
+   "name_en": "Gangdong-gu",
+   "center": {
+    "lat": 37.53,
+    "lng": 127.1237
+   },
+   "bbox": {
+    "south": 37.51679,
+    "west": 127.10951,
+    "north": 37.5812,
+    "east": 127.18377
+   }
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "seoul-ev-charger",
+  "private": true,
+  "workspaces": ["shared", "server"],
+  "scripts": {
+    "gen:types": "npm run gen -w shared",
+    "test": "npm test -w server",
+    "typecheck": "npm run typecheck -w shared && npm run typecheck -w server && npm run typecheck --prefix app",
+    "dev:server": "npm run dev -w server"
+  }
+}

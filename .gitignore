@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.sqlite
+*.sqlite-*
+server/data/
+app/.expo/
+app/dist/
+app/web-build/
+.DS_Store
+*.log

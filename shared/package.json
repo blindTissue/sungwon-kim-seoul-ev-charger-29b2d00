@@ -1,0 +1,16 @@
+{
+  "name": "@seoul-ev/shared",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TypeScript types generated from docs/openapi.yaml, shared by server and app",
+  "types": "src/index.ts",
+  "main": "src/index.ts",
+  "scripts": {
+    "gen": "openapi-typescript ../docs/openapi.yaml -o src/generated/openapi.ts",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "devDependencies": {
+    "openapi-typescript": "^7.13.0",
+    "typescript": "^5.9.3"
+  }
+}

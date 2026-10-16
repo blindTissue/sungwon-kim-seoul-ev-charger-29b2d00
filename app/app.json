@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "서울 EV 충전",
+    "slug": "seoul-ev-charger",
+    "scheme": "seoulev",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.example.seoulev",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "가까운 충전기를 찾고 도착 시간을 계산하기 위해 위치를 사용합니다. / Used to find nearby chargers and estimate your arrival time.",
+        "LSApplicationQueriesSchemes": [
+          "kakaomap"
+        ],
+        "NSAppTransportSecurity": {
+          "NSAllowsLocalNetworking": true,
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "package": "com.example.seoulev",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "lang": "ko",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-localization",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "가까운 충전기를 찾고 도착 시간을 계산하기 위해 위치를 사용합니다. / Used to find nearby chargers and estimate your arrival time."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
